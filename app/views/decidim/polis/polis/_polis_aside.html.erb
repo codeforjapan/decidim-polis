@@ -1,0 +1,48 @@
+<section class="layout-aside__section">
+  <!-- question mark section -->
+  <%= image_pack_tag "media/images/question-circle.svg", alt: t("question_circle_alt", scope: 'decidim.polis.polis.show'), width: 80, height: 30 %>
+  <h2 class="h3 decorator"><%= t("help.top", scope: 'decidim.polis.polis.show') %></h2>
+  <br>
+  <div>
+    <p><%= t("help.bottom", scope: 'decidim.polis.polis.show') %></p>
+  </div>
+  <!-- end -->
+</section>
+
+<!-- timeline helper section -->
+<section class="layout-aside__section">
+  <ol class="timeline">
+    <li class="timeline__item">
+      <div class="timeline__phase">
+        <b>1</b>
+      </div>
+      <div class="timeline__info">
+        <div class="timeline__content"><%= t("help.description_1", scope: 'decidim.polis.polis.show') %></div>
+      </div>
+    </li>
+    <li class="timeline__item">
+      <div class="timeline__phase">
+        <b>2</b>
+      </div>
+      <div class="timeline__info">
+        <div class="timeline__content"><%= t("help.description_2", scope: 'decidim.polis.polis.show') %></div>
+      </div>
+    </li>
+    <li class="timeline__item">
+      <div class="timeline__phase">
+        <b>3</b>
+      </div>
+      <div class="timeline__info">
+        <div class="timeline__content"><%= t("help.description_3", scope: 'decidim.polis.polis.show') %></div>
+      </div>
+    </li>
+    <li class="timeline__item">
+      <div class="timeline__phase">
+        <b>4</b>
+      </div>
+      <div class="timeline__info">
+        <div class="timeline__content"><%= t("help.description_4", scope: 'decidim.polis.polis.show') %></div>
+      </div>
+    </li>
+  </ol>
+</section>
