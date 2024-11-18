@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     decidim-polis (0.28.0)
-      decidim-core (= 0.28.0)
+      decidim-core (~> 0.28.0)
 
 GEM
   remote: https://rubygems.org/
