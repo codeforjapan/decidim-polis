@@ -4,11 +4,11 @@ module Decidim
   # This holds the decidim-meetings version.
   module Polis
     def self.version
-      "0.31.7"
+      "0.32.1"
     end
 
     def self.decidim_version
-      "0.31.7"
+      "0.32.1"
     end
   end
 end
