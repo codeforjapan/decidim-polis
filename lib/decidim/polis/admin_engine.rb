@@ -19,12 +19,6 @@ module Decidim
         root to: redirect("../edit")
       end
 
-      initializer "decidim_polis.admin_mount_routes" do
-        Decidim::Core::Engine.routes do
-          mount Decidim::Polis::AdminEngine, at: "/admin", as: "decidim_admin_polis"
-        end
-      end
-
       def load_seed
         nil
       end
