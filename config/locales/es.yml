@@ -1,23 +1,5 @@
 es:
   decidim:
-    admin:
-      menu:
-        appearance: Apariencia
-        area_types: Tipos de perímetro
-        areas: Perímetros
-        configuration: Configuración
-        help_sections: Secciones de ayuda
-        homepage: Página Principal
-        scope_types: Tipos de ámbito
-        scopes: Ámbitos
-      organization:
-        update:
-          error: Error
-          success: Éxito
-      polis_config:
-        reminder: Recuerde iniciar sesión en Pol.is para que los enlaces directos al interfaz de administración Pol.is funcionen.
-        title: Configuración de Pol.is
-        warning: Este es tu id único, no lo compartes ni lo cambies.
     components:
       polis:
         settings:
@@ -33,10 +15,6 @@ es:
         views:
           moder: 'Moderación:'
     polis:
-      admin:
-        configuration:
-          edit:
-            update: Actualizar
       polis:
         show:
           data: Datos
@@ -59,9 +37,6 @@ es:
           question_circle_alt: Alt círculo de preguntas
   layouts:
     decidim:
-      admin:
-        settings:
-          title: Título
       header:
         sign_in: Iniciar sesión
         sign_up: Registrarse
