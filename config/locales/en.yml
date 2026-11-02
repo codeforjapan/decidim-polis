@@ -1,24 +1,5 @@
 en:
   decidim:
-    admin:
-      menu:
-        appearance: Appearance
-        area_types: Area types
-        areas: Areas
-        configuration: Configuration
-        decidim_polis: Pol.is
-        help_sections: Help sections
-        homepage: Homepage
-        scope_types: Scope types
-        scopes: Scopes
-      organization:
-        update:
-          error: Error
-          success: Success
-      polis_config:
-        reminder: Remember to log in to Pol.is so that the direct links to the Pol.is administration interface work.
-        title: Pol.is configuration
-        warning: This is your unique id, don't share it or change it.
     components:
       polis:
         settings:
@@ -34,10 +15,6 @@ en:
         views:
           moder: 'Moderation:'
     polis:
-      admin:
-        configuration:
-          edit:
-            update: Update
       polis:
         show:
           data: Data
@@ -60,9 +37,6 @@ en:
           question_circle_alt: Question circle alt
   layouts:
     decidim:
-      admin:
-        settings:
-          title: Title
       header:
         sign_in: Sign in
         sign_up: Sign up

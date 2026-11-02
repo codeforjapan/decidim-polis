@@ -1,23 +1,5 @@
 de:
   decidim:
-    admin:
-      menu:
-        appearance: Aussehen
-        area_types: Bereichstypen
-        areas: Bereiche
-        configuration: Konfiguration
-        help_sections: Hilfeabschnitte
-        homepage: Startseite
-        scope_types: Scope-Arten
-        scopes: Scopes
-      organization:
-        update:
-          error: Fehler
-          success: Erfolg
-      polis_config:
-        reminder: Denken Sie daran, sich bei Pol.is anzumelden, damit die direkten Links zur Administrationsschnittstelle von Pol.is funktionieren.
-        title: Pol.is-Konfiguration
-        warning: Diese ID ist für Sie persönlich bestimmt, geben Sie sie nicht weiter und ändern Sie sie nicht.
     components:
       polis:
         settings:
@@ -33,10 +15,6 @@ de:
         views:
           moder: 'Moderation:'
     polis:
-      admin:
-        configuration:
-          edit:
-            update: Aktualisierung
       polis:
         show:
           data: Daten
@@ -59,9 +37,6 @@ de:
           question_circle_alt: Fragenkreis alt
   layouts:
     decidim:
-      admin:
-        settings:
-          title: Titel
       header:
         sign_in: Anmelden
         sign_up: Registrieren

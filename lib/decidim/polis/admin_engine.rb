@@ -11,11 +11,9 @@ module Decidim
       paths["db/migrate"] = nil
       paths["lib/tasks"] = nil
 
+      # The component has no admin pages of its own: Decidim mounts this engine at the
+      # component's manage path, and its root sends the admin to the component settings.
       routes do
-        resources :polis do
-          resources :attachments
-        end
-
         root to: redirect("../edit")
       end
 
