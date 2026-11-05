@@ -1,23 +1,5 @@
 nl:
   decidim:
-    admin:
-      menu:
-        appearance: Uiterlijk
-        area_types: Gebiedstypen
-        areas: Gebieden
-        configuration: Configuratie
-        help_sections: Help secties
-        homepage: Startpagina
-        scope_types: Scope types
-        scopes: Scopes
-      organization:
-        update:
-          error: Fout
-          success: Succes
-      polis_config:
-        reminder: Vergeet niet om in te loggen bij Pol.is zo dat de directe links naar de Pol. is administratie interface werk.
-        title: Configuratie Pol.is
-        warning: Deze identificatiecode is uniek voor u, niet delen of wijzigen.
     components:
       polis:
         settings:
@@ -33,10 +15,6 @@ nl:
         views:
           moder: 'Moderatie:'
     polis:
-      admin:
-        configuration:
-          edit:
-            update: Bijwerken
       polis:
         show:
           data: Data
@@ -59,9 +37,6 @@ nl:
           question_circle_alt: Vraagcirkel alt
   layouts:
     decidim:
-      admin:
-        settings:
-          title: Titel
       header:
         sign_in: Log in
         sign_up: Registratie

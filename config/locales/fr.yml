@@ -1,23 +1,5 @@
 fr:
   decidim:
-    admin:
-      menu:
-        appearance: Apparence
-        area_types: Types de périmètre d'assemblée
-        areas: Périmètres d'assemblée
-        configuration: Configuration
-        help_sections: Messages d'aide contextuels
-        homepage: Page d'accueil
-        scope_types: Types de secteurs
-        scopes: Secteurs
-      organization:
-        update:
-          error: Erreur
-          success: Succès
-      polis_config:
-        reminder: Pensez à vous connecter à Pol.is pour que les liens directs vers l'interface d'administration de Pol.is fonctionnent
-        title: Configuration Pol.is
-        warning: Cet identifiant vous est unique, ne le partagez pas et ne le modifiez pas.
     components:
       polis:
         settings:
@@ -33,10 +15,6 @@ fr:
         views:
           moder: 'Modération:'
     polis:
-      admin:
-        configuration:
-          edit:
-            update: Mettre à jour
       polis:
         show:
           data: Données
@@ -59,9 +37,6 @@ fr:
           question_circle_alt: Alt du cercle des questions
   layouts:
     decidim:
-      admin:
-        settings:
-          title: Titre
       header:
         sign_in: connectez vous avec votre compte
         sign_up: inscrivez vous
